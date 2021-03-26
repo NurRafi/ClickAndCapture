@@ -1,3 +1,21 @@
+<?php
+if (!empty($_POST)) {
+    session_start();
+    $id = $_SESSION["id"];/* userid of the user */
+    $con = mysqli_connect('localhost', 'root', '', 'photo') or die('Unable To connect');
+    if (count($_POST) > 0) {
+        $result = mysqli_query($con, "SELECT password from photographer WHERE id=$id");
+        $row = mysqli_fetch_array($result);
+        $newpass = $_POST["newPassword"];
+        if ($_POST["currentPassword"] == $row["password"] && $_POST["newPassword"] == $_POST["confirmPassword"]) {
+            mysqli_query($con, "UPDATE photographer set password=$newpass WHERE id=$id");
+            $message = "Password Changed Sucessfully";
+        } else {
+            $message = "Password is not correct";
+        }
+    }
+}
+?>
 
 <!DOCTYPE html>
 <html>
