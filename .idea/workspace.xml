@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98703564-ec0e-485f-b876-f9c5e93bb53e" name="Default Changelist" comment="" />
+    <list default="true" id="98703564-ec0e-485f-b876-f9c5e93bb53e" name="Default Changelist" comment="we had to add some changes to gallery" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,8 +36,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622725005457</updated>
-      <workItem from="1622725009091" duration="924000" />
+      <workItem from="1622725009091" duration="1235000" />
     </task>
+    <task id="LOCAL-00001" summary="we had to add some changes to gallery">
+      <created>1622726163616</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622726163616</updated>
+    </task>
+    <task id="LOCAL-00002" summary="we had to add some changes to gallery">
+      <created>1622726187454</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622726187454</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -53,5 +68,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="we had to add some changes to gallery" />
+    <option name="LAST_COMMIT_MESSAGE" value="we had to add some changes to gallery" />
   </component>
 </project>
