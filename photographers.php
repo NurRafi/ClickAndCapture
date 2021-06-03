@@ -77,9 +77,12 @@ if (isset($_POST['a'])) {
     $Area = mysqli_real_escape_string($con, $_POST['area']);
     $City = mysqli_real_escape_string($con, $_POST['city']);
 
+    $address = mysqli_real_escape_string($con, $_POST['Address']);
+    $price = mysqli_real_escape_string($con, $_POST['price']);
 
-    $query = "INSERT into photographer (id,email_id,name,phone_num,password,area,city)
-       VALUES ('$id','$email', '$name','$Mobile_Number','$password','$Area','$City')";
+
+    $query = "INSERT into photographer (id,email_id,name,phone_num,password,area,city,Address_details,price)
+       VALUES ($id,'$email', '$name','$Mobile_Number',$password,'$Area','$City','$address',$price)";
     $result = mysqli_query($con, $query);
     if ($result) {
 
