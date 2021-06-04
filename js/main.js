@@ -10,6 +10,7 @@ function switchSignup() {
 
     left_form.classList.add("form-hide");
     left_cover.classList.remove("cover-hide");
-    right_cover.classList.add("cover-hide");
+
     right_form.classList.remove("form-hide");
+    left_cover.classList.remove("cover-hide");
 }
