@@ -95,23 +95,37 @@ VALUES ('$user_name','$email', '$password','$Mobile_Number')";
 <?php
 require('db.php');
 // If form submitted, insert values into the database.
-if (isset($_POST['login1'])) {
-
-
-    $email = mysqli_real_escape_string($con, $_POST['email']);
-
-    $password = mysqli_real_escape_string($con, $_POST['password']);
-    echo $email, $password;
-
-    $query = "SELECT * FROM user WHERE email='$email'
+if (isset($_POST['login1'])){
+     
+	  
+	 
+	  
+	  $email = mysqli_real_escape_string($con,$_POST['email']);
+	 
+	  $password = mysqli_real_escape_string($con,$_POST['password']);
+	  echo $email, $password;
+	  
+     $query = "SELECT * FROM user WHERE email='$email'
       and password= '$password'";
-
-    $result = mysqli_query($con, $query) or die(mysql_error());
-
-    $rows = mysqli_num_rows($result);
-
-
-}
+	  
+	  $result = mysqli_query($con,$query) or die(mysql_error());
+	  
+	  $rows = mysqli_num_rows($result);
+	  
+	  
+	  if($rows==1){
+	    $_SESSION['email'] = $email;
+            
+	    header("Location: locationsearch.php");
+         }else{
+	echo "<div class='form'>
+<h3>Username/password is incorrect.</h3>
+<br/>Click here to <a href='Firstpage.html'>Login</a></div>";
+	}
+	 
+        }
+    
+	 
 	  
 	  
     
