@@ -8,9 +8,9 @@
     <title>User Login</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<form name="registration" action="user.php" method="post">
+<form name="registration" action="user.php" method="post">  
 <body>
-
+  
     <section class="left-section">
         <div id="left-cover" class="cover cover-hide">
             <img src="img/girl.jpg" alt="">
@@ -28,36 +28,33 @@
         </div>
     </section>
 
- <body/> <!DOCTYPE html>
-<html lang="en">
-<head>
+    <section class="right-section">
+        <div id="right-cover" class="cover fade-in-element">
+            <img src="img/cover.png" alt="">
+            <h1>Welcome !</h1>
+            <h3>Don't have an account ?</h3>
+            <button type="button" class="switch-btn" onclick="switchSignup()">Signup</button>
+        </div>
+        <div id="right-form" class="form form-hide">
+            <h1>Signup</h1>
+            <form action="user.php" method="post">
+			     
+                <input type="text" name="user-name" class="input-box" placeholder="User Name">
+                <input type="email" name="email" class="input-box" placeholder="Email">
+                <input type="password" name="password" class="input-box" placeholder="Password">
+				<input type="Phone Num" name="phone" class="input-box" placeholder="Phone Num">
+				
+				<input type="submit" name="submit" class="btn" value="Signup">
+            </form>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
 
 </body>
 </form>
 </html>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Login</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<form name="registration" action="user.php" method="post">
-    <body>
 
-    <section class="left-section">
-        <div id="left-cover" class="cover cover-hide">
-            <img src="img/girl.jpg" alt="">
-            <h1>Welcome !</h1>
-            <h3>Already have an account ?</h3>
-            <button type="button" class="switch-btn" onclick="location.reload()">Login</button>
-        </div>
-        <div id="left-form" class="form fade-in-element">
-            <h1>Login</h1>
-            <form action="user.php" method="post">
-                <input type="text" name="email" class="input-box" placeholder="enter your email">
-                <input type="password" name="password" class="input-box" placeholder="Password">
-                <input type="submit" name="login1" class="btn" value="Login">
-            </form>
-        </div>
-    </section>
 
-    <body/>
+
