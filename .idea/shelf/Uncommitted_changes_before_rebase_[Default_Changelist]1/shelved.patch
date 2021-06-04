@@ -1,0 +1,54 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"98703564-ec0e-485f-b876-f9c5e93bb53e\" name=\"Default Changelist\" comment=\"Added locationsearch.php file which will show the photographers based on selected region\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"Git.Rebase.Settings\">\r\n    <option name=\"NEW_BASE\" value=\"master\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1tRHVMsgJVncmf8ovBECIQX2OQw\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\antu pandit\\PhpstormProjects\\ClickAndCapture\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"98703564-ec0e-485f-b876-f9c5e93bb53e\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1622725005457</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1622725005457</updated>\r\n      <workItem from=\"1622725009091\" duration=\"1788000\" />\r\n      <workItem from=\"1622827782289\" duration=\"2086000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"we had to add some changes to gallery\">\r\n      <created>1622726163616</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1622726163616</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"we had to add some changes to gallery\">\r\n      <created>1622726187454</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1622726187454</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"fixed some errors\">\r\n      <created>1622726392844</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1622726392844</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Added locationsearch.php file which will show the photographers based on selected region\">\r\n      <created>1622828553130</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1622828553130</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Added locationsearch.php file which will show the photographers based on selected region\">\r\n      <created>1622829461332</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1622829461332</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"6\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"we had to add some changes to gallery\" />\r\n    <MESSAGE value=\"fixed some errors\" />\r\n    <MESSAGE value=\"Added locationsearch.php file which will show the photographers based on selected region\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Added locationsearch.php file which will show the photographers based on selected region\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 8b7301f1559353e9d627e41151e83c4bc5aeb322)
++++ b/.idea/workspace.xml	(date 1622830813785)
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="98703564-ec0e-485f-b876-f9c5e93bb53e" name="Default Changelist" comment="Added locationsearch.php file which will show the photographers based on selected region" />
++    <list default="true" id="98703564-ec0e-485f-b876-f9c5e93bb53e" name="Default Changelist" comment="Added locationsearch.css file associated with locationsearch.php" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -57,7 +57,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1622725005457</updated>
+       <workItem from="1622725009091" duration="1788000" />
+-      <workItem from="1622827782289" duration="2086000" />
++      <workItem from="1622827782289" duration="2991000" />
+     </task>
+     <task id="LOCAL-00001" summary="we had to add some changes to gallery">
+       <created>1622726163616</created>
+@@ -94,7 +94,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1622829461332</updated>
+     </task>
+-    <option name="localTasksCounter" value="6" />
++    <task id="LOCAL-00006" summary="Added locationsearch.css file associated with locationsearch.php">
++      <created>1622829900884</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1622829900884</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -117,6 +124,7 @@
+     <MESSAGE value="we had to add some changes to gallery" />
+     <MESSAGE value="fixed some errors" />
+     <MESSAGE value="Added locationsearch.php file which will show the photographers based on selected region" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Added locationsearch.php file which will show the photographers based on selected region" />
++    <MESSAGE value="Added locationsearch.css file associated with locationsearch.php" />
++    <option name="LAST_COMMIT_MESSAGE" value="Added locationsearch.css file associated with locationsearch.php" />
+   </component>
+ </project>
+\ No newline at end of file
