@@ -28,4 +28,35 @@
         </div>
     </section>
 
- <body/> 
+    <section class="right-section">
+        <div id="right-cover" class="cover fade-in-element">
+            <img src="img/cover.png" alt="">
+            <h1>Welcome !</h1>
+            <h3>Don't have an account ?</h3>
+            <button type="button" class="switch-btn" onclick="switchSignup()">Signup</button>
+        </div>
+        <div id="right-form" class="form form-hide">
+            <h1>Signup</h1>
+            <form action="user.php" method="post">
+			     
+                <input type="text" name="user-name" class="input-box" placeholder="User Name">
+                <input type="email" name="email" class="input-box" placeholder="Email">
+                <input type="password" name="password" class="input-box" placeholder="Password">
+				<input type="Phone Num" name="phone" class="input-box" placeholder="Phone Num">
+				
+				<input type="submit" name="submit" class="btn" value="Signup">
+            </form>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+
+</body>
+</form>
+</html>
+
+
+
+
+
+
