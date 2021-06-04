@@ -2,7 +2,7 @@
 if (!empty($_POST)) {
     session_start();
     $id = $_SESSION["id"];/* userid of the user */
-    $con = mysqli_connect('localhost', 'root', '', 'photo') or die('Unable To connect');
+    require('db.php');
     if (count($_POST) > 0) {
         $result = mysqli_query($con, "SELECT password from photographer WHERE id=$id");
         $row = mysqli_fetch_array($result);
