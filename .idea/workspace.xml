@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98703564-ec0e-485f-b876-f9c5e93bb53e" name="Default Changelist" comment="camera.jpg photo added for usage in locationsearch.php file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photographergallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/photographergallery.php" afterDir="false" />
-    </list>
+    <list default="true" id="98703564-ec0e-485f-b876-f9c5e93bb53e" name="Default Changelist" comment="fixed some errors" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,13 +9,6 @@
   </component>
   <component name="ComposerSettings">
     <execution />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,29 +22,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\antu pandit\PhpstormProjects\ClickAndCapture\img" />
-      <recent name="C:\Users\antu pandit\PhpstormProjects\ClickAndCapture\upload" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="locationsearch.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/locationsearch.php">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="PHP Script.locationsearch.php" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,9 +36,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622725005457</updated>
-      <workItem from="1622725009091" duration="4141000" />
-      <workItem from="1622784210803" duration="5290000" />
-      <workItem from="1622826054150" duration="568000" />
+      <workItem from="1622725009091" duration="1788000" />
     </task>
     <task id="LOCAL-00001" summary="we had to add some changes to gallery">
       <created>1622726163616</created>
@@ -90,14 +59,7 @@
       <option name="project" value="LOCAL" />
       <updated>1622726392844</updated>
     </task>
-    <task id="LOCAL-00004" summary="photographersgallery had some errors like connection problem,fixed it.">
-      <created>1622727146001</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1622727146001</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,13 +75,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="we had to add some changes to gallery" />
     <MESSAGE value="fixed some errors" />
-    <MESSAGE value="photographersgallery had some errors like connection problem,fixed it." />
-    <MESSAGE value="camera.jpg photo added for usage in locationsearch.php file" />
-    <option name="LAST_COMMIT_MESSAGE" value="camera.jpg photo added for usage in locationsearch.php file" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed some errors" />
   </component>
 </project>
