@@ -59,4 +59,27 @@
 
 
 
+<?php
+require('db.php');
+// If form submitted, insert values into the database.
+
+if (isset($_POST['submit'])) {
+
+
+    //echo "hello";
+
+    $user_name = mysqli_real_escape_string($con, $_POST['user-name']);
+
+    $email = mysqli_real_escape_string($con, $_POST['email']);
+    $Mobile_Number = mysqli_real_escape_string($con, $_POST['phone']);
+
+    $password = mysqli_real_escape_string($con, $_POST['password']);
+
+    //echo "$user_name";
+    //echo "$email";
+
+}
+	 
+	  
+?>
 
