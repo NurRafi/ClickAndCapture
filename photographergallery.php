@@ -2,22 +2,13 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "photo";
-require('db.php');
+$dbname = "clickandcapture";
 session_start();
-$email = $_SESSION['email'];
-$query = "SELECT id FROM photographer WHERE email_id = '$email'";
-$result = mysqli_query($con, $query) or die(mysql_error());
-$rows = mysqli_fetch_array($result);
-$pid = $rows['id'];
-$_SESSION["id"] = $pid;
-
-//echo $pid;
-//$id=$_SESSION['photographer_id'];
-$conn = new PDO("mysql:host=$servername;dbname=$dbname;", $username, $password);
+$id=$_SESSION['photographer_id'];
+$conn = new PDO("mysql:host=$servername;dbname=$dbname;",$username,$password);
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-$sql = "SELECT * FROM project WHERE photographerid = $pid";
+$sql =  "SELECT * FROM project WHERE photographerid = $id";
 $returnvalue = $conn->query($sql);
 $table = $returnvalue->fetchAll();
 //print_r($table);
@@ -69,19 +60,18 @@ $table = $returnvalue->fetchAll();
 
     <header class="header-bar d-flex d-lg-block align-items-center" data-aos="fade-left">
         <div class="site-logo">
-            <a href="booking.php"></a>
+            <a href="booking.html"></a>
         </div>
 
-        <div class="d-inline-block d-xl-none ml-md-0 ml-auto py-3" style="position: relative; top: 3px;"><a href="#"
-                                                                                                            class="site-menu-toggle js1-menu-toggle text-white"><span
-                        class="icon-menu h3"></span></a></div>
+        <div class="d-inline-block d-xl-none ml-md-0 ml-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js1-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
 
         <div class="main-menu">
             <ul class="js1-clone-nav">
-                <li class="active"><a href="">Home</a></li>
-                <li><a href="photographerpost.php">Add project</a></li>
-                <li><a href="changepassword.php">Change Password</a></li>
-                <li><a href="logout.php">Log Out</a></li>
+                <li class="active"><a href="locationsearch.php">Home</a></li>
+                <li><a href="gallery.php">Photos</a></li>
+                <li><a href="bio.html">Bio</a></li>
+                <li><a href="booking.php">Booking</a></li>
+                <li><a href="payment.php">Payment</a></li>
             </ul>
             <ul class="social js1-clone-nav">
                 <li><a href="#"><span class="icon-facebook"></span></a></li>
@@ -95,38 +85,38 @@ $table = $returnvalue->fetchAll();
             <div class="row align-items-stretch">
                 <?php
 
-                foreach ($table as $row) {
+                foreach($table as $row){
                     ?>
 
                     <div class="col-6 col-md-6 col-lg-8" data-aos="fade-up">
-                        <a href="deleteproject.php?project=<?php echo $row['project_name'] ?>" class="d-block photo-item">
+                        <a href="single.html" class="d-block photo-item">
                             <img src="upload/<?php echo $row['image']; ?> " alt="Image" class="img-fluid">
                             <div class="photo-text-more">
                                 <div class="photo-text-more">
-                                    <h3 class="heading">Photo Title</h3>
-                                    <span class="meta">Click to delete whole project</span>
+                                    <h3 class="heading">Photos Title Here</h3>
+                                    <span class="meta">42 Photos</span>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                        <a href="deleteproject.php?project=<?php echo $row['project_name'] ?>" class="d-block photo-item">
-                            <img src="upload/<?php echo $row['image1'] ?>" alt="Image" class="img-fluid">
+                        <a href="single.html" class="d-block photo-item">
+                            <img src="upload/<?php echo $row['image1']?>" alt="Image" class="img-fluid">
                             <div class="photo-text-more">
                                 <div class="photo-text-more">
                                     <h3 class="heading">Photos Title Here</h3>
-                                    <span class="meta">Click to delete whole project</span>
+                                    <span class="meta">42 Photos</span>
                                 </div>
                             </div>
                         </a>
                     </div>
 
                     <div class="col-6 col-md-6 col-lg-3" data-aos="fade-up">
-                        <a href="deleteproject.php?project=<?php echo $row['project_name'] ?>" class="d-block photo-item">
-                            <img src="upload/<?php echo $row['image2'] ?>" alt="Image" class="img-fluid">
+                        <a href="single.html" class="d-block photo-item">
+                            <img src="upload/<?php echo $row['image2']?>" alt="Image" class="img-fluid">
                             <div class="photo-text-more">
                                 <h3 class="heading">Photos Title Here</h3>
-                                <span class="meta">Click to delete whole project</span>
+                                <span class="meta">42 Photos</span>
                             </div>
                         </a>
                     </div>
@@ -139,7 +129,9 @@ $table = $returnvalue->fetchAll();
             <div class="row justify-content-center">
                 <div class="col-md-12 text-center py-5">
                     <p>
-
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
             </div>
