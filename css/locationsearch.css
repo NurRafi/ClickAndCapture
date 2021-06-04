@@ -104,7 +104,6 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -462,9 +461,8 @@ legend {
   -ms-flex-align: center;
       align-items: center;
   font-family: 'Poppins', sans-serif;
-  background: url("../images/Search_001.png");
   background-size: cover;
-  background-position: center center;
+  background: url("../img/4.jpg") center center;
   padding: 15px;
 }
 
@@ -500,7 +498,7 @@ legend {
 .s01 form .inner-form .input-field input {
   height: 100%;
   background: #fff;
-  border-radius: .5px;
+  border-radius: 1px;
   border: 0;
   display: block;
   width: 100%;
@@ -548,7 +546,7 @@ legend {
   width: 100%;
   background: #4272d7;
   white-space: nowrap;
-  border-radius: .5px;
+  border-radius: 1px;
   font-size: 20px;
   color: #fff;
   transition: all .2s ease-out, color .2s ease-out;
