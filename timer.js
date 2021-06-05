@@ -10,7 +10,7 @@ function startTimer(duration, display) {
         display.textContent = seconds;
 
         if (--timer < 0) {
-            window.location.replace("home.html");
+            window.location.replace("gallery.php");
             timer = duration;
         }
     }, 1000);
