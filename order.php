@@ -1,25 +1,33 @@
 <?php
+error_reporting(0);
+session_start();
 require "database.php";
 
-if (isset($_POST)) {
-    $user_email = $_POST["user_email"];
-    $project_name = $_POST["project_name"];
+if (isset($_GET)) {
+    $user_email = $_GET["user_email"];
+    $project_name = $_GET["project"];
 
     $sql = "select photographerid from project where project_name = '$project_name'";
     $result = mysqli_query($connection, $sql);
     $row = mysqli_fetch_assoc($result);
     $photographer_id = $row['photographerid'];
 
-    $sql = "select price from photographer where photographer_id = '$photographer_id'";
+    $sql = "select price from photographer where id = '$photographer_id'";
     $result = mysqli_query($connection, $sql);
     $row = mysqli_fetch_assoc($result);
     $price = $row['price'];
 
-    $sql = "insert into booking(user_email, photographer_id, price) values($user_email, $photographer_id, $price)";
-    if ($connection->query($sql) === TRUE) {
-        include "success.html";
-    } else {
-        echo "Order failed";
+    if (isset($_POST['cvv'])) {
+        $user_email = $_POST['user_email'];
+        $photographer_id = $_POST['photographer_id'];
+        $price = $_POST['price'];
+
+        $sql = "insert into checkout(user_email, photographer_id, price) values('$user_email', $photographer_id, $price)";
+        if ($connection->query($sql) === TRUE) {
+            header('Location: success.html');
+        } else {
+            echo "Order failed";
+        }
     }
 
     $connection->close();
@@ -59,7 +67,10 @@ if (isset($_POST)) {
                 </div>
                 <label for="">Card Verification Value (CVV)</label>
                 <div class="input-container">
-                    <input required="true" type="password" maxlength="4">
+                    <input required="true" type="password" maxlength="4" name="cvv">
+                    <input type="hidden" name="user_email" value="<?php echo $user_email; ?>"/>
+                    <input type="hidden" name="photographer_id" value="<?php echo $photographer_id; ?>"/>
+                    <input type="hidden" name="price" value="<?php echo $price; ?>"/>
                     <i class="fas fa-unlock-alt"></i>
                 </div>
             </fieldset>
@@ -70,7 +81,7 @@ if (isset($_POST)) {
     <div style="margin-top: 3rem;">
         <div class="summary">
             <p>Total</p>
-            <p><?php echo $price?></p>
+            <p><?php echo $price ?></p>
         </div>
     </div>
 </div>
