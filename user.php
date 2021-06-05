@@ -79,7 +79,7 @@ if (isset($_POST['submit'])){
 	  //echo "$email";
 	 
 	  
-	   $query = "INSERT into user(name,email,password,phone_num)
+	   $query = "INSERT into user(name,email,password,phone)
 VALUES ('$user_name','$email', '$password','$Mobile_Number')";
         $result = mysqli_query($con,$query);
         if($result){
