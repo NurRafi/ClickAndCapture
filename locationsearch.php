@@ -37,6 +37,12 @@
         </div>
       
     </div>
+
+          <div>
+              <a href="gallery.php" target="_blank">
+                  <button class="btn btn4">View all the projects</button>
+              </a>
+          </div>
   </body>
  </form>
 </html>
