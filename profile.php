@@ -27,9 +27,9 @@ $dbname = "clickandcapture";
 			}		
 			$userquery =  "SELECT * FROM photographer WHERE city = '$city' OR area= '$area'";
 			$returnvalue = $conn->query($userquery);
-			$table = $returnvalue->fetchAll();	
+			$table = $returnvalue->fetchAll();
+			$id = $table[0][0];
 ?>
-
 
 
 
@@ -107,7 +107,66 @@ for($i=0; $i<count($table); $i++){
     <!--profile-head close-->
 </div>
 <!--container close-->
+    <?php
+    $sql = "SELECT * FROM project WHERE photographerid = $id";
+    $returnvalue = $conn->query($sql);
+    $table = $returnvalue->fetchAll();
+    ?>
+    <main class="main-content">
+        <div class="container-fluid photos">
+            <div class="row align-items-stretch">
+                <?php
 
+                foreach ($table as $row) {
+                    ?>
+
+                    <div class="col-6 col-md-6 col-lg-8" data-aos="fade-up">
+                        <a href="deleteproject.php?project=<?php echo $row['project_name'] ?>" class="d-block photo-item">
+                            <img src="upload/<?php echo $row['image']; ?> " alt="Image" class="img-fluid">
+                            <div class="photo-text-more">
+                                <div class="photo-text-more">
+                                    <h3 class="heading">Photo Title</h3>
+                                    <span class="meta">Click to delete whole project</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <a href="deleteproject.php?project=<?php echo $row['project_name'] ?>" class="d-block photo-item">
+                            <img src="upload/<?php echo $row['image1'] ?>" alt="Image" class="img-fluid">
+                            <div class="photo-text-more">
+                                <div class="photo-text-more">
+                                    <h3 class="heading">Photos Title Here</h3>
+                                    <span class="meta">Click to delete whole project</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-md-6 col-lg-3" data-aos="fade-up">
+                        <a href="deleteproject.php?project=<?php echo $row['project_name'] ?>" class="d-block photo-item">
+                            <img src="upload/<?php echo $row['image2'] ?>" alt="Image" class="img-fluid">
+                            <div class="photo-text-more">
+                                <h3 class="heading">Photos Title Here</h3>
+                                <span class="meta">Click to delete whole project</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <?php
+                }
+                ?>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center py-5">
+                    <p>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
 
 <br/>
 <br/>
