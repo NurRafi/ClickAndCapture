@@ -112,6 +112,8 @@ for($i=0; $i<count($table); $i++){
     $sql = "SELECT * FROM project WHERE photographerid = $id";
     $returnvalue = $conn->query($sql);
     $table = $returnvalue->fetchAll();
+
+    $user_email = $_SESSION['email'];
     ?>
     <main class="main-content">
         <div class="container-fluid photos">
@@ -122,7 +124,7 @@ for($i=0; $i<count($table); $i++){
                     ?>
 
                     <div class="col-6 col-md-6 col-lg-8" data-aos="fade-up">
-                        <a href="order.php?project=<?php echo $row['project_name'] ?>&user_email=<?php echo $row['project_name'] ?>" class="d-block photo-item">
+                        <a href="order.php?project=<?php echo $row['project_name'] ?>&user_email=<?php echo $user_email ?>" class="d-block photo-item">
                             <img src="upload/<?php echo $row['image']; ?> " alt="Image" class="img-fluid">
                             <div class="photo-text-more">
                                 <div class="photo-text-more">
@@ -133,7 +135,7 @@ for($i=0; $i<count($table); $i++){
                         </a>
                     </div>
                     <div class="col-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                        <a href="order.php?project=<?php echo $row['project_name'] ?>&user_email=<?php echo $row['project_name'] ?>" class="d-block photo-item">
+                        <a href="order.php?project=<?php echo $row['project_name'] ?>&user_email=<?php echo $user_email ?>" class="d-block photo-item">
                             <img src="upload/<?php echo $row['image1'] ?>" alt="Image" class="img-fluid">
                             <div class="photo-text-more">
                                 <div class="photo-text-more">
@@ -145,7 +147,7 @@ for($i=0; $i<count($table); $i++){
                     </div>
 
                     <div class="col-6 col-md-6 col-lg-3" data-aos="fade-up">
-                        <a href="order.php?project=<?php echo $row['project_name'] ?>&user_email=<?php echo $row['project_name'] ?>" class="d-block photo-item">
+                        <a href="order.php?project=<?php echo $row['project_name'] ?>&user_email=<?php echo $user_email ?>" class="d-block photo-item">
                             <img src="upload/<?php echo $row['image2'] ?>" alt="Image" class="img-fluid">
                             <div class="photo-text-more">
                                 <h3 class="heading">Photos Title Here</h3>
