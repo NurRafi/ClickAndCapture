@@ -30,7 +30,7 @@
 
     <section class="right-section">
         <div id="right-cover" class="cover fade-in-element">
-            <img src="img/cover.png" alt="">
+            <img src="img/2.png" alt="">
             <h1>Welcome !</h1>
             <h3>Don't have an account ?</h3>
             <button type="button" class="switch-btn" onclick="switchSignup()">Signup</button>
