@@ -10,8 +10,8 @@ $area=$_SESSION['area'];
 
 $servername = "localhost";
 $username = "root";
-$password = "";
-$dbname = "photo";
+$password = "root";
+$dbname = "clickandcapture";
 	
 			try{				
 				$conn = new PDO("mysql:host=$servername;dbname=$dbname;",$username,$password);
