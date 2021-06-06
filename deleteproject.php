@@ -13,3 +13,8 @@ $image2 = $row['image2'];
 $old_file = getcwd()."\upload\\".$image;
 $new_file = getcwd()."\deleted\image.jpg";
 rename($old_file, $new_file);
+
+$old_file = getcwd()."\upload\\".$image1;
+$new_file = getcwd()."\deleted\image.jpg";
+rename($old_file, $new_file);
+
