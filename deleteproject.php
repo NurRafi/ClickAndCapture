@@ -25,3 +25,4 @@ rename($old_file, $new_file);
 $sql = "DELETE FROM project WHERE project_name='$project'";
 mysqli_query($con, $sql);
 
+header("Location: photographergallery.php");
