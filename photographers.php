@@ -22,7 +22,8 @@
             <form action="login.php" method="post">
 
                 <input id="email_login" type="text" name="email" class="input-box" placeholder="Enter your email">
-                <input id="password_login" type="password" name="password" class="input-box" placeholder="Enter your Password">
+                <input id="password_login" type="password" name="password" class="input-box"
+                       placeholder="Enter your Password">
                 <input id="submit_login" type="submit" name="login1" class="btn" value="Login">
             </form>
         </div>
@@ -47,7 +48,8 @@
                 <input id="area_signup" type="area" name="area" class="input-box" placeholder="Area">
                 <input id="city_signup" type="city" name="city" class="input-box" placeholder="City">
                 <input id="price_signup" type="price" name="price" class="input-box" placeholder="price">
-                <input id="address_signup" type="Details Address" name="Address" class="input-box" placeholder="Details Address">
+                <input id="address_signup" type="Details Address" name="Address" class="input-box"
+                       placeholder="Details Address">
 
                 <input id="submit_signup" type="submit" name="a" class="btn" value="Signup">
             </form>

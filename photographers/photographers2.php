@@ -3,14 +3,13 @@
 <head>
 
 
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login System</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<form name="registration" action="photographers.php" method="post">  
-<body>
-  
+<form name="registration" action="photographers.php" method="post">
+    <body>
+
     <section class="left-section">
         <div id="left-cover" class="cover cover-hide">
             <img src="img/boat.jpg" alt="">
@@ -21,7 +20,7 @@
         <div id="left-form" class="form fade-in-element">
             <h1>Login</h1>
             <form action="login.php" method="post">
-			
+
                 <input type="text" name="email" class="input-box" placeholder="Enter your email">
                 <input type="password" name="password" class="input-box" placeholder="Enter your Password">
                 <input type="submit" name="login1" class="btn" value="Login">
@@ -39,25 +38,25 @@
         <div id="right-form" class="form form-hide">
             <h1>Signup</h1>
             <form action="photographers.php" method="post">
-			   <input type="id" name="user-id" class="input-box" placeholder="Photographer id">
-			     
+                <input type="id" name="user-id" class="input-box" placeholder="Photographer id">
+
                 <input type="text" name="user-name" class="input-box" placeholder="User Name">
                 <input type="email" name="email" class="input-box" placeholder="Email">
                 <input type="password" name="password" class="input-box" placeholder="Password">
-				<input type="Phone Num" name="phone" class="input-box" placeholder="Phone Num">
-				<input type="area" name="area" class="input-box" placeholder="Area">
-				<input type="city" name="city" class="input-box" placeholder="City">
-				<input type="price" name="price" class="input-box" placeholder="price">
-				<input type="Details Address" name="Address" class="input-box" placeholder="Details Address">
-				
-				<input type="submit" name="a" class="btn" value="Signup">
+                <input type="Phone Num" name="phone" class="input-box" placeholder="Phone Num">
+                <input type="area" name="area" class="input-box" placeholder="Area">
+                <input type="city" name="city" class="input-box" placeholder="City">
+                <input type="price" name="price" class="input-box" placeholder="price">
+                <input type="Details Address" name="Address" class="input-box" placeholder="Details Address">
+
+                <input type="submit" name="a" class="btn" value="Signup">
             </form>
         </div>
     </section>
 
     <script src="js/main.js"></script>
 
-</body>
+    </body>
 </form>
 </html>
 

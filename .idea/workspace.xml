@@ -1,11 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aeba89c2-a215-43d3-a27e-1ec21a018f8e" name="Default Changelist" comment="Test file.">
-      <change afterPath="$PROJECT_DIR$/viewUsers.html" afterDir="false" />
+    <list default="true" id="aeba89c2-a215-43d3-a27e-1ec21a018f8e" name="Default Changelist" comment="Final sql and probably the final commit of our project.">
+      <change beforePath="$PROJECT_DIR$/.idea/Click&amp;Capture.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Click&amp;Capture.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]1/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]1/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]2/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]2/shelved.patch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changepassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/changepassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/locationsearch.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/locationsearch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/photographerpost.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/photographerpost.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css1/aos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css1/aos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css1/bootstrap-datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/css1/bootstrap-datepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css1/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css1/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css1/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/css1/jquery-ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css1/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/css1/magnific-popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css1/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css1/owl.carousel.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css1/owl.theme.default.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css1/owl.theme.default.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css1/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deleteproject.php" beforeDir="false" afterPath="$PROJECT_DIR$/deleteproject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generateList.php" beforeDir="false" afterPath="$PROJECT_DIR$/generateList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/aos.js" beforeDir="false" afterPath="$PROJECT_DIR$/js1/aos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/bootstrap-datepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js1/bootstrap-datepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js1/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js1/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/jquery-migrate-3.0.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js1/jquery-migrate-3.0.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/jquery-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/js1/jquery-ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/jquery.countdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js1/jquery.countdown.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/jquery.fancybox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js1/jquery.fancybox.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js1/jquery.magnific-popup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/jquery.stellar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js1/jquery.stellar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js1/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js1/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js1/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locationsearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/locationsearch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order.php" beforeDir="false" afterPath="$PROJECT_DIR$/order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photographergallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/photographergallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photographerpost.php" beforeDir="false" afterPath="$PROJECT_DIR$/photographerpost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photographers.php" beforeDir="false" afterPath="$PROJECT_DIR$/photographers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photographers/photographers1.php" beforeDir="false" afterPath="$PROJECT_DIR$/photographers/photographers1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photographers/photographers2.php" beforeDir="false" afterPath="$PROJECT_DIR$/photographers/photographers2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photographers/photographers3.php" beforeDir="false" afterPath="$PROJECT_DIR$/photographers/photographers3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photographers/photographers4.php" beforeDir="false" afterPath="$PROJECT_DIR$/photographers/photographers4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photographers/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/photographers/style1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photographers/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/photographers/style2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photographers/style3.css" beforeDir="false" afterPath="$PROJECT_DIR$/photographers/style3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/db_connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/db_connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer.js" beforeDir="false" afterPath="$PROJECT_DIR$/timer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viewUsers.html" beforeDir="false" afterPath="$PROJECT_DIR$/viewUsers.html" afterDir="false" />
     </list>
     <list id="2aedac26-bfee-43b5-b8ad-a2e1e5e402dc" name="Revert &quot;Test file.&quot;" comment="Revert &quot;Test file.&quot;&#10;&#10;This reverts commit 48f89661" />
     <list id="0dfb39e4-4bce-4bf0-a2dc-8e4032af9f8a" name="Test file." comment="" />
