@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aeba89c2-a215-43d3-a27e-1ec21a018f8e" name="Default Changelist" comment="Finding the project inside the database that is intended to be deleted.">
+    <list default="true" id="aeba89c2-a215-43d3-a27e-1ec21a018f8e" name="Default Changelist" comment="Test file.">
+      <change afterPath="$PROJECT_DIR$/viewUsers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deleteproject.php" beforeDir="false" afterPath="$PROJECT_DIR$/deleteproject.php" afterDir="false" />
     </list>
+    <list id="2aedac26-bfee-43b5-b8ad-a2e1e5e402dc" name="Revert &quot;Test file.&quot;" comment="Revert &quot;Test file.&quot;&#10;&#10;This reverts commit 48f89661" />
+    <list id="0dfb39e4-4bce-4bf0-a2dc-8e4032af9f8a" name="Test file." comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +44,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="aeba89c2-a215-43d3-a27e-1ec21a018f8e" name="Default Changelist" comment="" />
+      <changelist id="0dfb39e4-4bce-4bf0-a2dc-8e4032af9f8a" name="Test file." comment="" />
       <created>1622722721347</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -52,6 +55,8 @@
       <workItem from="1622760234267" duration="4247000" />
       <workItem from="1622853856826" duration="605000" />
       <workItem from="1622968671729" duration="2087000" />
+      <workItem from="1622972601491" duration="474000" />
+      <workItem from="1622973079858" duration="654000" />
     </task>
     <task id="LOCAL-00001" summary="Maintenance and initial code prep.">
       <created>1622724995595</created>
@@ -81,7 +86,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622970228255</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Test file.">
+      <created>1622972704652</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622972704652</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Test file.">
+      <created>1622973131235</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622973131235</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Revert &quot;Test file.&quot;&#10;&#10;This reverts commit e9f55acf">
+      <created>1622973399562</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622973399562</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +130,8 @@
     <MESSAGE value="Renamed the test images for better readability." />
     <MESSAGE value="Workspace.xml conflict - unnecessary file." />
     <MESSAGE value="Finding the project inside the database that is intended to be deleted." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finding the project inside the database that is intended to be deleted." />
+    <MESSAGE value="Test file." />
+    <MESSAGE value="Revert &quot;Test file.&quot;&#10;&#10;This reverts commit e9f55acf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Test file.&quot;&#10;&#10;This reverts commit e9f55acf" />
   </component>
 </project>
