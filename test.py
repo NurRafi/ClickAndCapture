@@ -22,3 +22,9 @@ driver.find_element_by_id("price_signup").send_keys("2500")
 driver.find_element_by_id("address_signup").send_keys("Ring Road")
 
 driver.find_element_by_id("submit_signup").click()
+
+driver.get("http://localhost/SE/photographers.php")
+
+driver.find_element_by_id("email_login").send_keys("test@gmail.com")
+driver.find_element_by_id("password_login").send_keys("123")
+driver.find_element_by_id("submit_login").click()
