@@ -12,3 +12,10 @@ fwrite($xmlFile, $text);
 
 $text = "<pages>";
 fwrite($xmlFile, $text);
+
+$text = "</pages>";
+fwrite($xmlFile, $text);
+$text = "</xml>";
+fwrite($xmlFile, $text);
+fclose($xmlFile);
+?>
