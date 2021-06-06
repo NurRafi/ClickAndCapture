@@ -21,6 +21,16 @@ if ($result->num_rows > 0) {
         fwrite($xmlFile, $text);
         $text = $row['name'];
         fwrite($xmlFile, $text);
+        $text = "</title>";
+        fwrite($xmlFile, $text);
+        $text = "<url>";
+        fwrite($xmlFile, $text);
+        $text = $row['email'];
+        fwrite($xmlFile, $text);
+        $text = "</url>";
+        fwrite($xmlFile, $text);
+        $text = "</link>";
+        fwrite($xmlFile, $text);
     }
 } else {
     echo "0 results";
