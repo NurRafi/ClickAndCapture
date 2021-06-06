@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aeba89c2-a215-43d3-a27e-1ec21a018f8e" name="Default Changelist" comment="Workspace.xml conflict - unnecessary file.">
+    <list default="true" id="aeba89c2-a215-43d3-a27e-1ec21a018f8e" name="Default Changelist" comment="Finding the project inside the database that is intended to be deleted.">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deleteproject.php" beforeDir="false" afterPath="$PROJECT_DIR$/deleteproject.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="ProjectId" id="1tRCsMe8c2iWN9zadSZIDiteeSZ" />
   <component name="ProjectViewState">
@@ -50,6 +51,7 @@
       <workItem from="1622760036110" duration="81000" />
       <workItem from="1622760234267" duration="4247000" />
       <workItem from="1622853856826" duration="605000" />
+      <workItem from="1622968671729" duration="2087000" />
     </task>
     <task id="LOCAL-00001" summary="Maintenance and initial code prep.">
       <created>1622724995595</created>
@@ -72,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622762683326</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finding the project inside the database that is intended to be deleted.">
+      <created>1622970228255</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622970228255</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +103,7 @@
     <MESSAGE value="Maintenance and initial code prep." />
     <MESSAGE value="Renamed the test images for better readability." />
     <MESSAGE value="Workspace.xml conflict - unnecessary file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Workspace.xml conflict - unnecessary file." />
+    <MESSAGE value="Finding the project inside the database that is intended to be deleted." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finding the project inside the database that is intended to be deleted." />
   </component>
 </project>
