@@ -18,3 +18,7 @@ $old_file = getcwd()."\upload\\".$image1;
 $new_file = getcwd()."\deleted\image.jpg";
 rename($old_file, $new_file);
 
+$old_file = getcwd()."\upload\\".$image2;
+$new_file = getcwd()."\deleted\image.jpg";
+rename($old_file, $new_file);
+
