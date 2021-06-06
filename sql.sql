@@ -1,15 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
--- https://www.phpmyadmin.net/
+-- version 4.5.4.1
+-- http://www.phpmyadmin.net
 --
--- Host: 127.0.0.1
--- Generation Time: Mar 26, 2021 at 05:45 PM
--- Server version: 10.4.6-MariaDB
--- PHP Version: 7.1.32
+-- Host: localhost
+-- Generation Time: Jun 06, 2021 at 11:01 AM
+-- Server version: 5.7.11
+-- PHP Version: 7.0.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -36,11 +34,17 @@ CREATE TABLE `booking` (
   `userid` int(30) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+-- --------------------------------------------------------
+
 --
--- Dumping data for table `booking`
+-- Table structure for table `checkout`
 --
 
-
+CREATE TABLE `checkout` (
+  `user_email` varchar(255) DEFAULT NULL,
+  `photographer_id` int(11) DEFAULT NULL,
+  `price` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -100,12 +104,6 @@ CREATE TABLE `photographer` (
   `price` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `photographer`
---
-
-
-
 -- --------------------------------------------------------
 
 --
@@ -121,12 +119,6 @@ CREATE TABLE `project` (
   `photographerid` int(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `project`
---
-
-
-
 -- --------------------------------------------------------
 
 --
@@ -140,12 +132,6 @@ CREATE TABLE `user` (
   `password` int(30) NOT NULL,
   `phone` int(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `user`
---
-
-
 
 --
 -- Indexes for dumped tables
@@ -212,26 +198,22 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `booking`
 --
 ALTER TABLE `booking`
-  MODIFY `booking_id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
-
+  MODIFY `booking_id` int(30) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `location`
 --
 ALTER TABLE `location`
   MODIFY `location_id` int(30) NOT NULL AUTO_INCREMENT;
-
 --
 -- AUTO_INCREMENT for table `payment`
 --
 ALTER TABLE `payment`
   MODIFY `payment_id` int(30) NOT NULL AUTO_INCREMENT;
-
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
-
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- Constraints for dumped tables
 --
@@ -267,7 +249,6 @@ ALTER TABLE `payment`
 --
 ALTER TABLE `project`
   ADD CONSTRAINT `FKproject855363` FOREIGN KEY (`photographerid`) REFERENCES `photographer` (`id`);
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
