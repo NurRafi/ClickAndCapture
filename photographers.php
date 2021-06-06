@@ -21,9 +21,9 @@
             <h1>Login</h1>
             <form action="login.php" method="post">
 
-                <input type="text" name="email" class="input-box" placeholder="Enter your email">
-                <input type="password" name="password" class="input-box" placeholder="Enter your Password">
-                <input type="submit" name="login1" class="btn" value="Login">
+                <input id="email_login" type="text" name="email" class="input-box" placeholder="Enter your email">
+                <input id="password_login" type="password" name="password" class="input-box" placeholder="Enter your Password">
+                <input id="submit_login" type="submit" name="login1" class="btn" value="Login">
             </form>
         </div>
     </section>
@@ -33,23 +33,23 @@
             <img src="img/2.png" alt="">
             <h1>Welcome !</h1>
             <h3>Don't have an account ?</h3>
-            <button type="button" class="switch-btn" onclick="switchSignup()">Signup</button>
+            <button id="signup" type="button" class="switch-btn" onclick="switchSignup()">Signup</button>
         </div>
         <div id="right-form" class="form form-hide">
             <h1>Signup</h1>
             <form action="photographers.php" method="post">
-                <input type="id" name="user-id" class="input-box" placeholder="Photographer id">
+                <input id="id_signup" type="id" name="user-id" class="input-box" placeholder="Photographer id">
 
-                <input type="text" name="user-name" class="input-box" placeholder="User Name">
-                <input type="email" name="email" class="input-box" placeholder="Email">
-                <input type="password" name="password" class="input-box" placeholder="Password">
-                <input type="Phone Num" name="phone" class="input-box" placeholder="Phone Num">
-                <input type="area" name="area" class="input-box" placeholder="Area">
-                <input type="city" name="city" class="input-box" placeholder="City">
-                <input type="price" name="price" class="input-box" placeholder="price">
-                <input type="Details Address" name="Address" class="input-box" placeholder="Details Address">
+                <input id="username_signup" type="text" name="user-name" class="input-box" placeholder="User Name">
+                <input id="email_signup" type="email" name="email" class="input-box" placeholder="Email">
+                <input id="password_signup" type="password" name="password" class="input-box" placeholder="Password">
+                <input id="phone_signup" type="Phone Num" name="phone" class="input-box" placeholder="Phone Num">
+                <input id="area_signup" type="area" name="area" class="input-box" placeholder="Area">
+                <input id="city_signup" type="city" name="city" class="input-box" placeholder="City">
+                <input id="price_signup" type="price" name="price" class="input-box" placeholder="price">
+                <input id="address_signup" type="Details Address" name="Address" class="input-box" placeholder="Details Address">
 
-                <input type="submit" name="a" class="btn" value="Signup">
+                <input id="submit_signup" type="submit" name="a" class="btn" value="Signup">
             </form>
         </div>
     </section>
