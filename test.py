@@ -28,3 +28,9 @@ driver.get("http://localhost/SE/photographers.php")
 driver.find_element_by_id("email_login").send_keys("test@gmail.com")
 driver.find_element_by_id("password_login").send_keys("123")
 driver.find_element_by_id("submit_login").click()
+
+
+if driver.current_url == "http://localhost/SE/photographergallery.php":
+    print("Working perfectly!")
+else:
+    print("Error! Not working as intended!")
