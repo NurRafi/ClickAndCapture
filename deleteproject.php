@@ -22,3 +22,6 @@ $old_file = getcwd()."\upload\\".$image2;
 $new_file = getcwd()."\deleted\image.jpg";
 rename($old_file, $new_file);
 
+$sql = "DELETE FROM project WHERE project_name='$project'";
+mysqli_query($con, $sql);
+
